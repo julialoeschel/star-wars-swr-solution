@@ -21,8 +21,7 @@ export default function App({ Component, pageProps }) {
   return (
     <SWRConfig
       value={{
-        fetcher,
-        refreshInterval: 1000,
+        fetcher
       }}
     >
       <GlobalStyle />
